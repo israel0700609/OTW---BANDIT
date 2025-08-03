@@ -49,14 +49,6 @@ Out of respect for the creators and the learning experience, I have chosen **not
 
 ---
 
-## 📌 Who Is This For?
-
-- Beginners in cybersecurity and Linux
-- Anyone looking to build strong CLI fundamentals
-- Developers wanting to understand OS-level access and security better
-- Self-learners who enjoy puzzle-like challenges
-
----
 
 
 ## ✍️ Author
