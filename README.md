@@ -2,7 +2,6 @@
 
 # OverTheWire: Bandit – Linux & Security Wargame
 
-<img src="https://overthewire.org/images/bandit.png" width="120" align="right" />
 
 This repository documents my journey through the **Bandit** wargame on [OverTheWire](https://overthewire.org/wargames/bandit/), a series of beginner-friendly Linux and security challenges.
 
