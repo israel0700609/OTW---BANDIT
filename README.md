@@ -4,63 +4,68 @@
 
 <img src="https://overthewire.org/images/bandit.png" width="120" align="right" />
 
-התמודדות עם אתגרי OverTheWire: Bandit נתנה לי הזדמנות מעולה ללמוד ולעבוד עם כלים מעשיים בלינוקס, הבנה של הרשאות, קבצים מוסתרים, שימוש ב־`bash`, וקריאת קבצים בדרכים יצירתיות.
+This repository documents my journey through the **Bandit** wargame on [OverTheWire](https://overthewire.org/wargames/bandit/), a series of beginner-friendly Linux and security challenges.
 
 ---
 
-## 🚩 מה זה Bandit?
+## 🎯 What is Bandit?
 
-**Bandit** הוא משחק הרפתקאות (wargame) שמתמקד ביסודות של לינוקס ואבטחת מידע. כל שלב דורש לגלות סיסמה באמצעות פקודות לינוקס פשוטות או מתקדמות יותר.
+**Bandit** is a hands-on wargame designed to teach core Linux skills, file manipulation, networking, and basic infosec techniques. Each level presents a small challenge that requires logical thinking, persistence, and command-line proficiency.
 
-🔗 [Bandit – OverTheWire](https://overthewire.org/wargames/bandit/)
-
----
-
-## 🎯 מה למדתי?
-
-- שימוש ב־`ssh`, `scp`, `nc`, `telnet` להתחברות והרצת פקודות מרחוק
-- פקודות בסיסיות בלינוקס: `ls`, `cat`, `find`, `file`, `du`, `grep`, `sort`, `head`, `tail`
-- טיפול בקבצים עם הרשאות מיוחדות, קבצים ריקים, בינאריים או מוסתרים
-- עבודה עם `git`: שיבוץ בין branches, tags ו־commit history
-- איתור בעיות בעזרת קריאה מדויקת של output
-- סקריפטים קטנים וחד-שורתיים לצורך פתרון יצירתי
+🔗 [Play Bandit on OverTheWire](https://overthewire.org/wargames/bandit/)
 
 ---
 
-## 🧠 דגש על תהליך ולא על תשובות
+## 💡 What I Learned
 
-החלטתי **לא לפרסם פתרונות מלאים** ולא לכלול סיסמאות, מתוך כבוד לכללי הקהילה ולרוח הלימודית של האתר. מטרת הריפו היא לשתף בדרך, לא לשרטט קיצור דרך.
+Throughout the game, I strengthened my understanding of:
 
----
-
-## 🧰 כלים ששימשו אותי:
-
-| תחום        | כלים/פקודות                       |
-|-------------|-----------------------------------|
-| גישה        | `ssh`, `scp`, `nc`, `telnet`      |
-| ניתוח קבצים | `file`, `xxd`, `strings`, `hexdump` |
-| הרשאות      | `chmod`, `chown`, `setuid`        |
-| טקסט        | `grep`, `cut`, `awk`, `sort`, `uniq` |
-| Git         | `clone`, `log`, `checkout`, `branch`, `tag` |
+- **Shell navigation** and working in restricted environments
+- Using tools like `ssh`, `scp`, `nc`, `telnet` to access remote resources
+- Inspecting file types (`file`, `xxd`, `strings`, `hexdump`)
+- Searching and filtering data with `grep`, `cut`, `sort`, `uniq`, `awk`
+- Understanding Linux file permissions and `setuid` binaries
+- Working with Git: `clone`, `log`, `checkout`, `branches`, `tags`
+- Thinking outside the box and debugging creatively
 
 ---
 
-## 📌 למי זה מתאים?
+## 🧠 Focus on Process, Not Answers
 
-- למי שרוצה להבין טוב יותר את שורת הפקודה בלינוקס
-- למתחילים בסייבר שרוצים בסיס חזק ומעשי
-- למי שנהנה מאתגרים לוגיים ואינפורמטיביים
+> ⚠️ This repository **does not** include any passwords or step-by-step solutions.
 
----
-
-## 💡 טיפ ממני
-
-קח כל שלב כאתגר בפני עצמו. אל תקפוץ לפתרון — חפש להבין מה באמת קורה מאחורי הקלעים.
+Out of respect for the creators and the learning experience, I have chosen **not to post any spoilers**. Instead, this repo highlights the concepts and tools I encountered, with the goal of inspiring others to try the challenges themselves.
 
 ---
 
-## 👋 תודה!
+## 🛠️ Tools & Commands
 
-תודה ל־[OverTheWire](https://overthewire.org) על יצירת משחק חינוכי חכם ומאתגר, ולכל הקהילה שסובבת אותו.
+| Category       | Tools / Commands                             |
+|----------------|----------------------------------------------|
+| Access         | `ssh`, `scp`, `telnet`, `nc`                 |
+| File analysis  | `file`, `xxd`, `strings`, `hexdump`, `cat`   |
+| Permissions    | `chmod`, `chown`, `setuid`                   |
+| Text parsing   | `grep`, `cut`, `awk`, `sort`, `uniq`, `head` |
+| Git            | `git clone`, `log`, `checkout`, `tag`        |
 
 ---
+
+## 📌 Who Is This For?
+
+- Beginners in cybersecurity and Linux
+- Anyone looking to build strong CLI fundamentals
+- Developers wanting to understand OS-level access and security better
+- Self-learners who enjoy puzzle-like challenges
+
+---
+
+## 🙏 Thanks
+
+Huge thanks to the [OverTheWire](https://overthewire.org) team for creating such a thoughtful and educational wargame. It's a must for any aspiring security enthusiast.
+
+---
+
+## ✍️ Author
+
+Made with curiosity, by someone who enjoys learning through challenges.  
+Feedback, questions, or pull requests are always welcome!
