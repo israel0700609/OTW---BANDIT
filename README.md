@@ -37,7 +37,7 @@ Out of respect for the creators and the learning experience, I have chosen **not
 
 ---
 
-## 🛠️ Tools & Commands
+## 🛠️ Part of the Tools & Commands
 
 | Category       | Tools / Commands                             |
 |----------------|----------------------------------------------|
@@ -47,7 +47,6 @@ Out of respect for the creators and the learning experience, I have chosen **not
 | Text parsing   | `grep`, `cut`, `awk`, `sort`, `uniq`, `head` |
 | Git            | `git clone`, `log`, `checkout`, `tag`        |
 
-and many more
 ---
 
 ## 📌 Who Is This For?
