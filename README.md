@@ -47,6 +47,7 @@ Out of respect for the creators and the learning experience, I have chosen **not
 | Text parsing   | `grep`, `cut`, `awk`, `sort`, `uniq`, `head` |
 | Git            | `git clone`, `log`, `checkout`, `tag`        |
 
+and many more
 ---
 
 ## 📌 Who Is This For?
@@ -58,11 +59,6 @@ Out of respect for the creators and the learning experience, I have chosen **not
 
 ---
 
-## 🙏 Thanks
-
-Huge thanks to the [OverTheWire](https://overthewire.org) team for creating such a thoughtful and educational wargame. It's a must for any aspiring security enthusiast.
-
----
 
 ## ✍️ Author
 
